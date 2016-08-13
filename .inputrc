@@ -1,0 +1,21 @@
+# OSX iTerm 2 configuration
+# mappings for Ctrl-left-arrow and Ctrl-right-arrow for word moving
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
+"\e[5C": forward-word
+"\e[5D": backward-word
+"\e\e[C": forward-word
+"\e\e[D": backward-word
+
+"\e[1;6D": backward-word
+"\e[1;6C": forward-word
+
+# Make Tab autocomplete regardless of filename case
+set completion-ignore-case on
+# List all matches in case multiple possible completions are possible
+set show-all-if-ambiguous on
+# Flip through autocompletion matches with Shift-Tab.
+"\e[Z": menu-complete
+# Filtered history search
+"\e[A": history-search-backward
+"\e[B": history-search-forward
