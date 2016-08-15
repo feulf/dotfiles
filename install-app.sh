@@ -11,3 +11,4 @@ brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" spotify-notifications
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" moom
+brew cask install --appdir="/Applications" 1password
