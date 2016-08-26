@@ -1,5 +1,5 @@
 # Dev Apps
-brew cask install --appdir="~/Applications" iterm2
+brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" pycharm
 brew cask install --appdir="/Applications" slack
